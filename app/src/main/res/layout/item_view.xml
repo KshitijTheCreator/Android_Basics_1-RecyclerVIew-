@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/songName"
+        android:textColor="@color/black"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:text="2nd Round Knockout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/artistName"
+        android:textColor="#6C5B5B"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:text="Canibus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/albumName"
+        android:textColor="#6C5B5B"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:text="2000 B.C."
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
